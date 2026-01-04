@@ -1,6 +1,8 @@
 import requests
 from bs4 import BeautifulSoup
-import time, random, json
+import time
+import random
+import json
 
 articles = {
     "1. 数的基本运算 & 不等式 & 函数（ 不含导数 ）": "https://www.luogu.com/article/a4us0qi4",
