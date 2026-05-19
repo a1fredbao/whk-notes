@@ -20,9 +20,9 @@ articles = {
 # Replace cookies and headers with your own values
 # Copy as curl and use https://curlconverter.com/
 cookies = {
-    "cf_clearance": "dqG8jdVmDqzDbjIypBNAZH3VdI88WTqNOMG0C_ksQJc-1728258003-1.2.1.1-nQkdfx4TFiO45ypA0zKPGYOqEgGpTE_LsaJKIqBxar0CsZFjleX8mj9.cVcQMFLYT2uyapGTuvLIUAWHXLeJ8nRxVCkLY7w.FUdhdV_nlZGDiC0etu6e7gVgTaIkF0HFWoDkOT.ol26aivDl2zMgl3xEkr3LhDFbukgo5MD63Y2qzmc9QFYb4MRN442eYB0Dt0tzrxbfaQSk.KCmJFDtJ2.ot_NFlHXbkWAFZBAi4NU3EuAfhoHmtQ1LyvX2D5hkJ2TT1qMK.Io2.s0jB_Qqi1fX9LG2FqWYQFmzo_idVHwHgSPRGcnJDZPK7iqYE3NgiGU0rL4alB2VnIGt8ombCCjSDllewG3ZC8wtYgRujxtBAAMpBS6WzVFXE_Jq10FUs2FuGYyjlc6biIwAFW2WvL_JYBBDcL6KOkOzefkLyfMl0yuLLSPUzhcenhUavGHe",
-    "_uid": "583610",
-    "__client_id": "02b9dfdb242af0e21047add757c1b95c166259b3",
+    "cf_clearance": "******",
+    "_uid": "******",
+    "__client_id": "******",
 }
 
 headers = {
@@ -46,7 +46,6 @@ headers = {
     "sec-fetch-user": "?1",
     "upgrade-insecure-requests": "1",
     "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
-    # 'cookie': 'cf_clearance=dqG8jdVmDqzDbjIypBNAZH3VdI88WTqNOMG0C_ksQJc-1728258003-1.2.1.1-nQkdfx4TFiO45ypA0zKPGYOqEgGpTE_LsaJKIqBxar0CsZFjleX8mj9.cVcQMFLYT2uyapGTuvLIUAWHXLeJ8nRxVCkLY7w.FUdhdV_nlZGDiC0etu6e7gVgTaIkF0HFWoDkOT.ol26aivDl2zMgl3xEkr3LhDFbukgo5MD63Y2qzmc9QFYb4MRN442eYB0Dt0tzrxbfaQSk.KCmJFDtJ2.ot_NFlHXbkWAFZBAi4NU3EuAfhoHmtQ1LyvX2D5hkJ2TT1qMK.Io2.s0jB_Qqi1fX9LG2FqWYQFmzo_idVHwHgSPRGcnJDZPK7iqYE3NgiGU0rL4alB2VnIGt8ombCCjSDllewG3ZC8wtYgRujxtBAAMpBS6WzVFXE_Jq10FUs2FuGYyjlc6biIwAFW2WvL_JYBBDcL6KOkOzefkLyfMl0yuLLSPUzhcenhUavGHe; _uid=583610; __client_id=02b9dfdb242af0e21047add757c1b95c166259b3',
 }
 
 
