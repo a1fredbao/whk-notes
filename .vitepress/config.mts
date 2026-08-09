@@ -18,19 +18,20 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: '主页', link: '/' },
+      { text: '化学', link: '/chemistry' }
     ],
 
-    sidebar: [
-      {
-        text: 'Examples',
-        items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
-        ]
-      }
-    ],
+    sidebar: {
+      '/chemistry/': [
+        {
+          text: '化学',
+          items: [
+            { text: '化学基本原理', link: '/chemistry/basic-principles/' },
+          ]
+        }
+      ]
+    },
 
     search: {
       provider: 'local'

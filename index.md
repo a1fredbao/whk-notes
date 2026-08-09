@@ -18,44 +18,8 @@ hero:
     alt: Alfred Bao
 ---
 
-<!-- <script setup>
-import { onMounted, ref } from 'vue'
+# 前言
 
-const hitokoto = ref('')
+本人坐标 SH，在 NOI 2026 中获得了铜牌~~的好成绩~~。遗憾离场滚粗来学文化课。这是学习文化课电子化思路指导下的一次尝试。
 
-async function fetchHitokoto() {
-  try {
-    const response = await fetch('https://v1.hitokoto.cn')
-    if (!response.ok) return ''
-
-    const { hitokoto: text } = await response.json()
-    return text
-  } catch {
-    return ''
-  }
-}
-
-onMounted(async () => {
-  hitokoto.value = await fetchHitokoto()
-})
-</script>
-
-# Hitokoto
-
-<div class="hitokoto" aria-live="polite">{{ hitokoto }}</div>
-
-<style scoped>
-h1 {
-  text-align: center;
-}
-
-.hitokoto {
-  margin: 24px auto 0;
-  max-width: 720px;
-  min-height: 56px;
-  text-align: center;
-  font-size: 18px;
-  line-height: 1.7;
-  color: var(--vp-c-text-2);
-}
-</style> -->
+值得一提的是本份笔记并不仅仅是个人向。所以如果你也是退役 OIer，抑或是刚刚升学的准高中生，都可以来这里随便翻翻。希望我能通过这份笔记能做出一些微小的贡献。👓
