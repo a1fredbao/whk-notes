@@ -118,3 +118,5 @@ dist
 # vitepress
 .vitepress/cache
 .vitepress/dist
+
+reference/

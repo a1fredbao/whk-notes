@@ -27,5 +27,8 @@ export default defineConfig({
   },
   markdown: {
     math: true
+  },
+  sitemap: {
+    hostname: 'https://whk.alfredbao.cn'
   }
 })
