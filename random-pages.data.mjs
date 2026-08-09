@@ -3,6 +3,7 @@ import { createContentLoader } from 'vitepress'
 const EXCLUDED_ROUTES = new Set([
   '/',
   '/index',
+  '/random',
   '/api-examples',
   '/markdown-examples',
 ])

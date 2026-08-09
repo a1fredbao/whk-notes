@@ -7,11 +7,14 @@ hero:
   text: "退役 OIer："
   tagline: 从零开始的文化课生活
   actions:
+    - theme: brand
+      text: 随机页面
+      link: /random
     - theme: alt
       text: 联系我
       link: mailto:me@alfredbao.cn
   image:
-    src: https://image.alfredbao.cn/ywokszkpxfqqtbqfbqmdxtzzidxgujtv
+    src: /avatar.png
     alt: Alfred Bao
 ---
 
