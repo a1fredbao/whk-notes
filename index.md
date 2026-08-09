@@ -11,7 +11,7 @@ hero:
       text: 联系我
       link: mailto:me@alfredbao.cn
   image:
-    src: /avatar.png
+    src: https://image.alfredbao.cn/ywokszkpxfqqtbqfbqmdxtzzidxgujtv
     alt: Alfred Bao
 ---
 
