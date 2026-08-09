@@ -1,7 +1,18 @@
 import { defineConfig } from 'vitepress'
 
+function resolveBase() {
+  const configuredBase = process.env.VITE_BASE
+  if (!configuredBase) return '/'
+
+  const base = configuredBase.trim()
+  if (!base || base === '/') return '/'
+
+  return `/${base.replace(/^\/+|\/+$/g, '')}/`
+}
+
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: resolveBase(),
   title: "Alfred's whk notes",
   description: "An retired OIer",
   themeConfig: {
