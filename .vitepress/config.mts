@@ -21,8 +21,17 @@ export default defineConfig({
       }
     ],
 
+    search: {
+      provider: 'local'
+    },
+
+    footer: {
+      message: "Released under the CC-BY-NC-4.0 License.",
+      copyright: "Copyright © 2026-present Alfred Bao"
+    },
+
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/a1fredbao/whk-notes' }
     ]
   },
   markdown: {

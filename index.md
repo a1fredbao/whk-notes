@@ -4,22 +4,55 @@ layout: home
 
 hero:
   name: "Alfred's whk notes"
-  text: "An retired OIer"
-  tagline: My great project tagline
+  text: "退役 OIer："
+  tagline: 从零开始的文化课生活
   actions:
-    - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
     - theme: alt
-      text: API Examples
-      link: /api-examples
-
-features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+      text: 联系我
+      link: mailto:me@alfredbao.cn
+  image:
+    src: avatar.png
+    alt: Alfred Bao
 ---
 
+<!-- <script setup>
+import { onMounted, ref } from 'vue'
+
+const hitokoto = ref('')
+
+async function fetchHitokoto() {
+  try {
+    const response = await fetch('https://v1.hitokoto.cn')
+    if (!response.ok) return ''
+
+    const { hitokoto: text } = await response.json()
+    return text
+  } catch {
+    return ''
+  }
+}
+
+onMounted(async () => {
+  hitokoto.value = await fetchHitokoto()
+})
+</script>
+
+# Hitokoto
+
+<div class="hitokoto" aria-live="polite">{{ hitokoto }}</div>
+
+<style scoped>
+h1 {
+  text-align: center;
+}
+
+.hitokoto {
+  margin: 24px auto 0;
+  max-width: 720px;
+  min-height: 56px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.7;
+  color: var(--vp-c-text-2);
+}
+</style> -->
