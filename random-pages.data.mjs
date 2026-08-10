@@ -4,8 +4,6 @@ const EXCLUDED_ROUTES = new Set([
 	"/",
 	"/index",
 	"/random",
-	"/api-examples",
-	"/markdown-examples",
 ]);
 
 function isExcludedPage({ url, frontmatter }) {
