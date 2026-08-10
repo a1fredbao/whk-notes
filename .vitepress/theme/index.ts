@@ -2,12 +2,13 @@ import { type EnhanceAppContext, useData, useRoute } from "vitepress";
 import DefaultTheme from "vitepress/theme";
 import giscusTalk from "vitepress-plugin-comment-with-giscus";
 import { toRefs } from "vue";
+import Figure from "./figure.vue";
 
 export default {
 	...DefaultTheme,
 	enhanceApp(ctx: EnhanceAppContext) {
 		DefaultTheme.enhanceApp(ctx);
-		// ...
+		ctx.app.component("Figure", Figure);
 	},
 	setup() {
 		// Get frontmatter and route

@@ -23,6 +23,8 @@ export default defineConfig({
 			{ text: "化学", link: "/chemistry" },
 		],
 
+		outline: "deep",
+
 		sidebar: {
 			"/chemistry/": [
 				{
