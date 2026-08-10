@@ -1,11 +1,11 @@
 import DefaultTheme from 'vitepress/theme';
 import giscusTalk from 'vitepress-plugin-comment-with-giscus';
-import { useData, useRoute } from 'vitepress';
+import { useData, useRoute, type EnhanceAppContext } from 'vitepress';
 import { toRefs } from "vue";
 
 export default {
     ...DefaultTheme,
-    enhanceApp(ctx) {
+    enhanceApp(ctx: EnhanceAppContext) {
         DefaultTheme.enhanceApp(ctx);
         // ...
     },
