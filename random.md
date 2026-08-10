@@ -1,3 +1,8 @@
+---
+layout: page
+---
+<!-- markdownlint-disable-file MD041 -->
+
 <script setup lang="ts">
 import { onMounted } from 'vue'
 import { useRouter, withBase } from 'vitepress'
