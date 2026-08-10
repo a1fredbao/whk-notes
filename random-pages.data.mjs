@@ -18,6 +18,9 @@ function isExcludedPage({ url, frontmatter }) {
 }
 
 export default createContentLoader("**/*.md", {
+	includeSrc: false,
+	render: false,
+	excerpt: false,
 	transform(raw) {
 		return raw.filter((page) => !isExcludedPage(page)).map(({ url }) => url);
 	},

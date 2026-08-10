@@ -1,6 +1,3 @@
----
-layout: page
----
 <!-- markdownlint-disable-file MD041 -->
 
 <script setup lang="ts">
