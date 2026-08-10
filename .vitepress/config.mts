@@ -79,6 +79,21 @@ export default defineConfig({
 		socialLinks: [
 			{ icon: "github", link: "https://github.com/a1fredbao/whk-notes" },
 		],
+
+		lastUpdated: {
+			text: "上次更新于",
+			formatOptions: {
+				dateStyle: "full",
+				timeStyle: "medium",
+			},
+		},
+
+		editLink: {
+			pattern: "https://github.com/a1fredbao/whk-notes/edit/main/:path",
+			text: "在 Github 上编辑此页面",
+		},
+
+		externalLinkIcon: true,
 	},
 	markdown: {
 		math: true,
