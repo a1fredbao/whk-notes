@@ -58,7 +58,7 @@ export default defineConfig({
 								},
 								{
 									text: "氧化还原",
-									link: "/chemistry/basic-principles/redox-reactions"
+									link: "/chemistry/basic-principles/redox-reactions",
 								},
 							],
 						},

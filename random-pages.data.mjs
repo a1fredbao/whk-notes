@@ -1,10 +1,6 @@
 import { createContentLoader } from "vitepress";
 
-const EXCLUDED_ROUTES = new Set([
-	"/",
-	"/index",
-	"/random",
-]);
+const EXCLUDED_ROUTES = new Set(["/", "/index", "/random"]);
 
 function isExcludedPage({ url, frontmatter }) {
 	const path = url.replace(/\.html$/, "").replace(/\/+$/, "");
