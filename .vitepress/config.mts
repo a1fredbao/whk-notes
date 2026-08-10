@@ -36,6 +36,30 @@ export default defineConfig({
 									text: "原子结构基础",
 									link: "/chemistry/basic-principles/atom-structure",
 								},
+								{
+									text: "核外电子排布与离子",
+									link: "/chemistry/basic-principles/electron-configuration-and-ions",
+								},
+								{
+									text: "化学键与晶体",
+									link: "/chemistry/basic-principles/chemical-bonds-and-crystals",
+								},
+								{
+									text: "电解质与分散系",
+									link: "/chemistry/basic-principles/electrolytes-and-dispersion-systems",
+								},
+								{
+									text: "化学计量",
+									link: "/chemistry/basic-principles/stoichiometry",
+								},
+								{
+									text: "离子反应与简单的平衡移动",
+									link: "/chemistry/basic-principles/ionic-reactions-and-equilibrium-shifts",
+								},
+								{
+									text: "氧化还原",
+									link: "/chemistry/basic-principles/redox-reactions"
+								},
 							],
 						},
 					],
