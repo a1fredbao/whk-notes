@@ -21,6 +21,7 @@ export default defineConfig({
 		nav: [
 			{ text: "主页", link: "/" },
 			{ text: "化学", link: "/chemistry" },
+			{ text: "生物", link: "/biology" },
 		],
 
 		outline: "deep",
@@ -61,6 +62,31 @@ export default defineConfig({
 								{
 									text: "氧化还原",
 									link: "/chemistry/basic-principles/redox-reactions",
+								},
+							],
+						},
+					],
+				},
+			],
+			"/biology/": [
+				{
+					text: "生物",
+					link: "/biology/",
+					items: [
+						{
+							text: "必修一·分子与细胞",
+							items: [
+								{
+									text: "第 1 章 走进生物学",
+									items: [
+										{
+											text: "第 1 节 生物学是与人类生活密切相关的自然科学（存目）",
+										},
+										{
+											text: "第 2 节 实验探究是学习生物学的重要途径",
+											link: "/biology/必修一/第 1 章 走进生物学/第 2 节 实验探究是学习生物学的重要途径",
+										},
+									],
 								},
 							],
 						},
