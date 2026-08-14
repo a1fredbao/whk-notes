@@ -1,0 +1,13 @@
+.vp-doc strong,
+.vp-doc b {
+	-webkit-text-emphasis: dot;
+	text-emphasis: dot;
+	-webkit-text-emphasis-position: under;
+	text-emphasis-position: under;
+}
+
+html.strong-emphasis-disabled .vp-doc strong,
+html.strong-emphasis-disabled .vp-doc b {
+	-webkit-text-emphasis: none;
+	text-emphasis: none;
+}

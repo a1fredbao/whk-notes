@@ -1,8 +1,9 @@
 import { type EnhanceAppContext, useData, useRoute } from "vitepress";
 import DefaultTheme from "vitepress/theme";
 import giscusTalk from "vitepress-plugin-comment-with-giscus";
-import { toRefs } from "vue";
+import { toRefs, watch } from "vue";
 import Figure from "./figure.vue";
+import "./strong-emphasis.css";
 
 export default {
 	...DefaultTheme,
@@ -14,6 +15,18 @@ export default {
 		// Get frontmatter and route
 		const { frontmatter } = toRefs(useData());
 		const route = useRoute();
+
+		watch(
+			() => frontmatter.value.strongEmphasis,
+			(enabled) => {
+				if (typeof document === "undefined") return;
+				document.documentElement.classList.toggle(
+					"strong-emphasis-disabled",
+					enabled === false,
+				);
+			},
+			{ immediate: true },
+		);
 
 		// Obtain configuration from: https://giscus.app/
 		giscusTalk(
