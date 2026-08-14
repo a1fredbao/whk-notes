@@ -30,72 +30,8 @@ export default withMermaid({
 		outline: "deep",
 
 		sidebar: {
-			"/chemistry/": [
-				{
-					text: "化学",
-					link: "/chemistry/",
-					items: [
-						{
-							text: "化学基本原理",
-							link: "/chemistry/basic-principles/",
-							items: [
-								{
-									text: "原子结构基础",
-									link: "/chemistry/basic-principles/atom-structure",
-								},
-								{
-									text: "核外电子排布与离子",
-									link: "/chemistry/basic-principles/electron-configuration-and-ions",
-								},
-								{
-									text: "化学键与晶体",
-									link: "/chemistry/basic-principles/chemical-bonds-and-crystals",
-								},
-								{
-									text: "电解质与分散系",
-									link: "/chemistry/basic-principles/electrolytes-and-dispersion-systems",
-								},
-								{
-									text: "化学计量",
-									link: "/chemistry/basic-principles/stoichiometry",
-								},
-								{
-									text: "离子反应与简单的平衡移动",
-									link: "/chemistry/basic-principles/ionic-reactions-and-equilibrium-shifts",
-								},
-								{
-									text: "氧化还原",
-									link: "/chemistry/basic-principles/redox-reactions",
-								},
-							],
-						},
-					],
-				},
-			],
-			"/biology/": [
-				{
-					text: "生物",
-					items: [
-						{
-							text: "必修一·分子与细胞",
-							items: [
-								{
-									text: "第 1 章 走进生物学",
-									items: [
-										{
-											text: "第 1 节 生物学是与人类生活密切相关的自然科学（存目）",
-										},
-										{
-											text: "第 2 节 实验探究是学习生物学的重要途径",
-											link: "/biology/必修一/第 1 章 走进生物学/第 2 节 实验探究是学习生物学的重要途径",
-										},
-									],
-								},
-							],
-						},
-					],
-				},
-			],
+			"/chemistry/": [chemistrySidebar()],
+			"/biology/": [biologySidebar()],
 		},
 
 		search: {
@@ -133,3 +69,75 @@ export default withMermaid({
 		hostname: "https://whk.alfredbao.cn",
 	},
 });
+
+function chemistrySidebar() {
+	return {
+		text: "化学",
+		link: "/chemistry/",
+		items: [
+			{
+				text: "化学基本原理",
+				link: "/chemistry/basic-principles/",
+				items: [
+					{
+						text: "原子结构基础",
+						link: "/chemistry/basic-principles/atom-structure",
+					},
+					{
+						text: "核外电子排布与离子",
+						link: "/chemistry/basic-principles/electron-configuration-and-ions",
+					},
+					{
+						text: "化学键与晶体",
+						link: "/chemistry/basic-principles/chemical-bonds-and-crystals",
+					},
+					{
+						text: "电解质与分散系",
+						link: "/chemistry/basic-principles/electrolytes-and-dispersion-systems",
+					},
+					{
+						text: "化学计量",
+						link: "/chemistry/basic-principles/stoichiometry",
+					},
+					{
+						text: "离子反应与简单的平衡移动",
+						link: "/chemistry/basic-principles/ionic-reactions-and-equilibrium-shifts",
+					},
+					{
+						text: "氧化还原",
+						link: "/chemistry/basic-principles/redox-reactions",
+					},
+				],
+			},
+		],
+	};
+}
+
+function biologySidebar() {
+	return {
+		text: "生物",
+		items: [
+			{
+				text: "必修一·分子与细胞",
+				items: [
+					{
+						text: "第 1 章 走进生物学",
+						items: [
+							{
+								text: "第 1 节 生物学是与人类生活密切相关的自然科学（存目）",
+							},
+							{
+								text: "第 2 节 实验探究是学习生物学的重要途径",
+								link: "/biology/必修一/第 1 章 走进生物学/第 2 节 实验探究是学习生物学的重要途径",
+							},
+							{
+								text: "第 3 节 细胞是生物体结构的基本单位",
+								link: "/biology/必修一/第 1 章 走进生物学/第 3 节 细胞是生物体结构的基本单位",
+							},
+						],
+					},
+				],
+			},
+		],
+	};
+}
