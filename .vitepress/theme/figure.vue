@@ -20,20 +20,20 @@ import { withBase } from "vitepress";
 import { computed } from "vue";
 
 const props = defineProps<{
-  src: string;
-  description?: string;
-  alt?: string;
+	src: string;
+	description?: string;
+	alt?: string;
 }>();
 
 const imageAssets = import.meta.glob<string>(
-  [
-    "../../**/*.{png,jpg,jpeg,gif,webp,svg,avif}",
-    "!../../**/node_modules/**",
-    "!../../**/dist/**",
-    "!../../**/.vitepress/**",
-    "!../../public/**",
-  ],
-  { eager: true, query: "?url", import: "default" },
+	[
+		"../../**/*.{png,jpg,jpeg,gif,webp,svg,avif}",
+		"!../../**/node_modules/**",
+		"!../../**/dist/**",
+		"!../../**/.vitepress/**",
+		"!../../public/**",
+	],
+	{ eager: true, query: "?url", import: "default" },
 );
 
 // biome-ignore lint/correctness/noUnusedVariables: Actually used
@@ -41,28 +41,28 @@ const altText = computed(() => props.alt ?? props.description ?? "");
 
 // biome-ignore lint/correctness/noUnusedVariables: Actually used
 const resolvedSrc = computed(() => {
-  const src = props.src;
+	const src = props.src;
 
-  if (
-    /^(?:https?:)?\/\//i.test(src) ||
-    /^(?:data|blob):/i.test(src) ||
-    src.includes("/assets/") ||
-    src.startsWith("/src/") ||
-    src.startsWith("/@fs/")
-  ) {
-    console.log(src);
-    return src;
-  }
+	if (
+		/^(?:https?:)?\/\//i.test(src) ||
+		/^(?:data|blob):/i.test(src) ||
+		src.includes("/assets/") ||
+		src.startsWith("/src/") ||
+		src.startsWith("/@fs/")
+	) {
+		console.log(src);
+		return src;
+	}
 
-  const normalized = src.replace(/^\.\//, "").replace(/^\/+/, "");
-  const match = Object.keys(imageAssets).find((key) => {
-    const file = key.replace(/\\/g, "/");
-    return file === normalized || file.endsWith(`/${normalized}`);
-  });
+	const normalized = src.replace(/^\.\//, "").replace(/^\/+/, "");
+	const match = Object.keys(imageAssets).find((key) => {
+		const file = key.replace(/\\/g, "/");
+		return file === normalized || file.endsWith(`/${normalized}`);
+	});
 
-  if (match) return imageAssets[match];
+	if (match) return imageAssets[match];
 
-  return withBase(src.startsWith("/") ? src : `/${normalized}`);
+	return withBase(src.startsWith("/") ? src : `/${normalized}`);
 });
 </script>
 
