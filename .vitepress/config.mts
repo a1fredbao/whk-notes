@@ -1,4 +1,4 @@
-import { defineConfig } from "vitepress";
+import { withMermaid } from "vitepress-plugin-mermaid";
 
 function resolveBase() {
 	const configuredBase = process.env.VITE_BASE;
@@ -11,7 +11,7 @@ function resolveBase() {
 }
 
 // https://vitepress.dev/reference/site-config
-export default defineConfig({
+export default withMermaid({
 	base: resolveBase(),
 	title: "Alfred's whk notes",
 	description: "An retired OIer",
@@ -21,7 +21,10 @@ export default defineConfig({
 		nav: [
 			{ text: "主页", link: "/" },
 			{ text: "化学", link: "/chemistry" },
-			{ text: "生物", link: "/biology" },
+			{
+				text: "生物",
+				link: "/biology/必修一/第 1 章 走进生物学/第 2 节 实验探究是学习生物学的重要途径",
+			},
 		],
 
 		outline: "deep",
@@ -30,6 +33,7 @@ export default defineConfig({
 			"/chemistry/": [
 				{
 					text: "化学",
+					link: "/chemistry/",
 					items: [
 						{
 							text: "化学基本原理",
@@ -71,7 +75,6 @@ export default defineConfig({
 			"/biology/": [
 				{
 					text: "生物",
-					link: "/biology/",
 					items: [
 						{
 							text: "必修一·分子与细胞",
