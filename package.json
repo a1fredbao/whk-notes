@@ -1,7 +1,6 @@
 {
   "packageManager": "bun@1.2.15",
   "devDependencies": {
-    "biome": "^0.3.3",
     "markdown-it-mathjax3": "^4",
     "mermaid": "^11.16.1",
     "vitepress": "^2.0.0-alpha.19",
