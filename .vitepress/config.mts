@@ -35,7 +35,12 @@ export default withMermaid({
 		},
 
 		search: {
-			provider: "local",
+			provider: "algolia",
+			options: {
+				appId: "OCR9L4JXBH",
+				indexName: "whk-notes-crawler",
+				apiKey: "0b6a00b660601062e5e9b59b910adcea",
+			},
 		},
 
 		footer: {
