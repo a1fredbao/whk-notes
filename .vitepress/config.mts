@@ -114,6 +114,10 @@ function chemistrySidebar() {
 					},
 				],
 			},
+			{
+				text: "元素化学",
+				link: "/chemistry/elementary/",
+			},
 		],
 	};
 }

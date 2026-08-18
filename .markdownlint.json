@@ -1,5 +1,5 @@
 {
-	"default": true,
-	"MD013": false,
-	"MD033": { "allowed_elements": ["script", "style", "Figure"] }
+  "default": true,
+  "MD013": false,
+  "MD033": { "allowed_elements": ["script", "style", "Figure", "br"] }
 }
