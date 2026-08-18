@@ -50,7 +50,6 @@ const resolvedSrc = computed(() => {
 		src.startsWith("/src/") ||
 		src.startsWith("/@fs/")
 	) {
-		console.log(src);
 		return src;
 	}
 
