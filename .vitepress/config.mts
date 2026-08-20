@@ -116,7 +116,13 @@ function chemistrySidebar() {
 			},
 			{
 				text: "元素化学",
-				link: "/chemistry/elementary/",
+				link: "/chemistry/elemental/",
+				items: [
+					{
+						text: "氯气与次氯酸",
+						link: "/chemistry/elemental/1-Cl2-and-HClO",
+					},
+				],
 			},
 		],
 	};
