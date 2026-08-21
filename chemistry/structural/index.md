@@ -41,7 +41,7 @@
 
 多电子基态原子的电子根据能级高低不同，电子排布顺序如下。
 
-<Figure src="./Madelung.png" description="构造原理示意图" />
+<Figure src="/images/chemistry/structural/Madelung.png" description="构造原理示意图" />
 
 按第一关键字是能级加能层从小到大，第二关键字是能层从小到大的顺序，能量从低到高。电子一般按照这个顺序排布。
 

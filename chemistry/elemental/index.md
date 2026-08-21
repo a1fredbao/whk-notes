@@ -108,7 +108,7 @@ $$
 
 |           固固加热型           |         固液常温型          |           固液加热型           |        启普发生器         |            简易启普发生器            |
 | :----------------------------: | :-------------------------: | :----------------------------: | :-----------------------: | :----------------------------------: |
-| ![固固加热型](./ss-heated.png) | ![固液常温型 ](./sl-nt.png) | ![固液加热型](./sl-heated.png) | ![启普发生器](./kipp.png) | ![简易启普发生器](./simple-kipp.png) |
+| ![固固加热型](/images/chemistry/elemental/ss-heated.png) | ![固液常温型 ](/images/chemistry/elemental/sl-nt.png) | ![固液加热型](/images/chemistry/elemental/sl-heated.png) | ![启普发生器](/images/chemistry/elemental/kipp.png) | ![简易启普发生器](/images/chemistry/elemental/simple-kipp.png) |
 
 固固加热型注意事项：
 
@@ -132,9 +132,9 @@ $$
 
 |  除杂装置  |                        示意图                         |                                                             常用试剂                                                              |
 | :--------: | :---------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------: |
-|   洗气瓶   |              ![db](./drying-bottle.png)               | $\ce{Cl2}$（$\ce{HCl}$）：饱和食盐水<br>$\ce{CO2}$（$\ce{HCl}$）：饱和 $\ce{NaHCO3}$<br>$\ce{H2}$（$\ce{CO2}$）：$\ce{NaOH}$ 溶液 |
-|   干燥管   | ![dt](./drying-tube-1.png) ![dt](./drying-tube-2.png) |                                $\ce{NH3}$（$\ce{CO2}$）：碱石灰<br>$\ce{H2}$（$\ce{HCl}$）：碱石灰                                |
-| 硬质玻璃管 |                ![gt](./glass-tube.png)                |  $\ce{CO2}$（$\ce{CO}$）：灼热 $\ce{CuO}$<br>$\ce{CO2}$（$\ce{H2}$）：灼热 $\ce{CuO}$<br>$\ce{CO2}$（$\ce{O2}$）：灼热 $\ce{Cu}$  |
+|   洗气瓶   |              ![db](/images/chemistry/elemental/drying-bottle.png)               | $\ce{Cl2}$（$\ce{HCl}$）：饱和食盐水<br>$\ce{CO2}$（$\ce{HCl}$）：饱和 $\ce{NaHCO3}$<br>$\ce{H2}$（$\ce{CO2}$）：$\ce{NaOH}$ 溶液 |
+|   干燥管   | ![dt](/images/chemistry/elemental/drying-tube-1.png) ![dt](/images/chemistry/elemental/drying-tube-2.png) |                                $\ce{NH3}$（$\ce{CO2}$）：碱石灰<br>$\ce{H2}$（$\ce{HCl}$）：碱石灰                                |
+| 硬质玻璃管 |                ![gt](/images/chemistry/elemental/glass-tube.png)                |  $\ce{CO2}$（$\ce{CO}$）：灼热 $\ce{CuO}$<br>$\ce{CO2}$（$\ce{H2}$）：灼热 $\ce{CuO}$<br>$\ce{CO2}$（$\ce{O2}$）：灼热 $\ce{Cu}$  |
 
 其中利用饱和溶液除杂的原理详见[离子反应与简单的平衡移动](/chemistry/basic-principles/ionic-reactions-and-equilibrium-shifts)一课。
 
@@ -166,7 +166,7 @@ $\ce{CaCl2}$ 不能干燥 $\ce{NH3}$、$\ce{CH3CH2OH}$，因为它们会生成�
 
 高中涉及到两种极易溶于水的气体：$\ce{NH3}$ 和 $\ce{HCl}$。这两种气体的尾气吸收需要考虑防倒吸装置。
 
-<Figure src="./reflow.png" description="常见的防倒吸装置"/>
+<Figure src="/images/chemistry/elemental/reflow.png" description="常见的防倒吸装置"/>
 
 防倒吸装置主要包括安全瓶、漏斗型（利用压强差）和多层液体型（利用在有机溶剂和水中的溶解度不同）。
 

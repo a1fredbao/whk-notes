@@ -4,7 +4,7 @@
 
 原子由质子、中子和电子构成。其中质子带正电，决定原子所属的元素种类；中子不带电；核外电子带负电，呈分层排布。
 
-<Figure src="./atom-structure-outline.png" description="碳-12 原子结构的示意图（图源网络，侵删）"/>
+<Figure src="/images/chemistry/basic-principles/atom-structure-outline.png" description="碳-12 原子结构的示意图（图源网络，侵删）"/>
 
 ## 质子
 
