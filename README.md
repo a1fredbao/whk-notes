@@ -37,4 +37,4 @@ bun run docs:preview
 
 ## 许可
 
-本仓库使用 CC-BY-NC-4.0 许可，详见 [LICENSE](LICENSE)。
+本仓库使用 CC-BY-NC-4.0 许可。
