@@ -1,6 +1,8 @@
 {
   "packageManager": "bun@1.2.15",
   "devDependencies": {
+    "@commitlint/cli": "^21.2.2",
+    "@commitlint/config-conventional": "^21.2.2",
     "markdown-it-mathjax3": "^4",
     "mermaid": "^11.16.1",
     "vitepress": "^2.0.0-alpha.19",
@@ -10,6 +12,7 @@
   "scripts": {
     "docs:dev": "vitepress dev",
     "docs:build": "vitepress build",
-    "docs:preview": "vitepress preview"
+    "docs:preview": "vitepress preview",
+    "prepare": "husky"
   }
 }
