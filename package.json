@@ -12,7 +12,6 @@
   "scripts": {
     "docs:dev": "vitepress dev",
     "docs:build": "vitepress build",
-    "docs:preview": "vitepress preview",
-    "prepare": "husky"
+    "docs:preview": "vitepress preview"
   }
 }
