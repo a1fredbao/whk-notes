@@ -15,3 +15,5 @@ updates:
     open-pull-requests-limit: 5
     labels:
       - "dependencies"
+    ignore:
+      - dependency-name: "markdown-it-mathjax3"
