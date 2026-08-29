@@ -1,0 +1,18 @@
+name: Run Algolia Crawler
+
+on:
+  push:
+    branches: ["main"]
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Algolia Crawler Automatic Crawl
+        uses: algolia/algoliasearch-crawler-github-actions@v1.1.0
+        with:
+          crawler-user-id: ${{ secrets.ALGOLIA_CRAWLER_USER_ID }}
+          crawler-api-key: ${{ secrets.ALGOLIA_CRAWLER_API_KEY }}
+          algolia-app-id: ${{ secrets.ALGOLIA_APPLICATION_ID }}
+          algolia-api-key: ${{ secrets.ALGOLIA_API_KEY }}
+          site-url: https://whk.alfredbao.cn
