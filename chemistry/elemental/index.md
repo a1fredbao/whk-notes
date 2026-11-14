@@ -75,7 +75,7 @@ $\ce{VIIA}$ 族（卤族）：$\ce{F}$、$\textcolor{red}{\ce{Cl}}$、$\textcolo
 ##### 通用氧化性、还原性顺序表
 
 $$
-\text{还原性：}\ce{\overset{-2}{S} \approx \overset{+4}{S} > I- > Fe^2+ > Br- > NO > NO2 > Cl- > Mn2+}
+\text{还原性：}\ce{\overset{-2}{S} \approx \overset{+4}{S} > I- > Fe^2+ > Br- > NO > NO2 > Cl- > Mn^2+}
 $$
 
 $$
